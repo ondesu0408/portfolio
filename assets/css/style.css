@@ -25,6 +25,7 @@ Assigned to: ThemeForest
 18. Go to top  Css / .bottom_top  
 19. custom scrollbar Css
 20. Media Query Css 
+21. Eungyu's Css
 
 --------------------------------------------------------------------*/
 /* ================== 01 body start ================== */
@@ -3361,3 +3362,13 @@ p.banner_pera {
 }
 }
 /*  ================== 20 End media query css ==================  */
+
+/*================== 21 start Eungyu's Css ==================  */
+/*
+Index: inner section
+*/
+.highlight:hover{
+    background-color: #fcc255;
+}
+
+/*  ================== 21 Eungyu's Css ==================  */
