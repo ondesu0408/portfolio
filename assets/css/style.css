@@ -757,7 +757,7 @@ transform: translate(-50%,-50%);
     /*Eungyu's Background
     background: url(http://via.placeholder.com/1902x952);
      */
-    background: url(../images/staff.jpg); 
+    background: url(../images/); 
 	background-size:cover;
 	-webkit-animation: moveup 50s linear infinite;
     -moz-animation: moveup 50s linear infinite;
