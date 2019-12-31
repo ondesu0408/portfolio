@@ -3370,5 +3370,56 @@ Index: inner section
 .highlight:hover{
     background-color: #fcc255;
 }
+/*
+Index: educatio name width update
+*/
+.prt_rightside_title .right_title {
+    width: 100%;
+}
+/*
+Index: programming
+*/
+.programming{
+    text-align: center;
+}
+
+.programming_btn {
+    position: relative;
+    display: inline-block;
+    outline: none;
+	overflow: hidden;
+	min-width: 200px;
+    height: 60px;
+    background:  rgb(255, 81, 126);
+    border-radius: 30px;
+    text-align: center;
+    line-height: 64px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+@media (min-width:1199px) {
+    .progrmming_margin{
+        margin-top: 80px;
+    }
+}
+
+.programming_heading{
+    font-size: 32px;
+    color: #556d91;
+    margin-top: 3px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.programming_div{
+    text-align: center;
+    margin-bottom: 80px;
+}
 
 /*  ================== 21 Eungyu's Css ==================  */
