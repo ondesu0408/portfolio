@@ -3430,4 +3430,17 @@ Index: my skills
     height: 100px;
 }
 
+/*
+Index: my projects
+*/
+.project_small{
+    width: 349px;
+    height: 349px;
+}
+
+.project_large{
+    width: 600px;
+    height: 600px;
+}
+
 /*  ================== 21 Eungyu's Css ==================  */
