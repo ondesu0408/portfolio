@@ -3422,5 +3422,12 @@ Index: programming
     text-align: center;
     margin-bottom: 80px;
 }
+/*
+Index: my skills
+*/
+.skills_pic{
+    width: 100px;
+    height: 100px;
+}
 
 /*  ================== 21 Eungyu's Css ==================  */
