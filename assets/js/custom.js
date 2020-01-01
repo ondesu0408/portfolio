@@ -205,6 +205,7 @@ Assigned to: ThemeForest
 		}
 	},
 	/*------------------------------------------------------------------*/
+	// Modified display time (used to 5500) Eungyu
 	// Start testimonial swipper slider
 	testimonial_slider: function() {
 		if($('.port_testimonial_setions .swiper-container').length > 0){
@@ -218,7 +219,7 @@ Assigned to: ThemeForest
 				prevEl: '.swiper-button-prev',
 				},
 			  autoplay: {
-					delay: 5500,
+					delay: 12000,
 					disableOnInteraction: false,
 				},
 			});

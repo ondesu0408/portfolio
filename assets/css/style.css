@@ -3433,10 +3433,13 @@ Index: my skills
 
 /*
 Index: my projects
+small used to
+    width: 349px;
+    height: 349px;
 */
 .project_small{
     width: 349px;
-    height: 349px;
+    height: 329px;
 }
 
 .project_large{
