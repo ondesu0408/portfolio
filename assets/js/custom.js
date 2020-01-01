@@ -437,7 +437,7 @@ Assigned to: ThemeForest
 	// end map js
 	/*------------------------------------------------------------------*/ 
 	
-	// start video popup js
+	// start first video popup js - Edited by Eungyu
 	popup_video: function() {
 		if($('.testimonial_icon .video').length > 0){
 			$('.testimonial_icon .video').magnificPopup({ 
@@ -452,7 +452,33 @@ Assigned to: ThemeForest
 					youtube: {
 						index: 'youtube.com/', 
 						id: 'v=',
-						src: 'https://www.youtube.com/embed/fpQcEiwxzQE'
+						src: 'https://www.youtube.com/embed/9Fojxfpoixc'
+						}
+					}
+				}
+				// other options
+			});	
+		}
+	},
+	// End video popup js
+
+		
+	// start second video popup js - Edited by Eungyu
+	popup_video: function() {
+		if($('.testimonial_icon .video2').length > 0){
+			$('.testimonial_icon .video2').magnificPopup({ 
+			type: 'iframe',
+			iframe: {
+				markup: '<div class="mfp-iframe-scaler">'+
+					'<div class="mfp-close"></div>'+
+					'<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+					'<div class="mfp-title">Some caption</div>'+
+					'</div>',
+				patterns: {
+					youtube: {
+						index: 'youtube.com/', 
+						id: 'v=',
+						src: 'https://www.youtube.com/embed/iEzlJBP9KoQ'
 						}
 					}
 				}
