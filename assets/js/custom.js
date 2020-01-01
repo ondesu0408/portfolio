@@ -219,7 +219,7 @@ Assigned to: ThemeForest
 				prevEl: '.swiper-button-prev',
 				},
 			  autoplay: {
-					delay: 5500,
+					delay: 6500,
 					disableOnInteraction: false,
 				},
 			});
