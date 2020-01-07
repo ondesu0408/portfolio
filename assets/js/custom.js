@@ -665,10 +665,10 @@ Assigned to: ThemeForest
 	
 	
 	
-	
+	/* change delay(1000) to (10) - Eungyu */
 	$(window).on('load', function() {
 		$(".status").fadeOut(1800);
-		$(".preloader").delay(1000).fadeOut("slow");
+		$(".preloader").delay(10).fadeOut("slow");
 	});
 		
 }(jQuery));	
