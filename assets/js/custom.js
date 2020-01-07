@@ -149,7 +149,7 @@ Assigned to: ThemeForest
 					delay: 50,
 					*/
 					delayScale: 2.0,
-					delay: 35,
+					delay: 20,
 					sync: false,
 					shuffle: false,
 					reverse: false
@@ -682,7 +682,7 @@ Assigned to: ThemeForest
 	/* change delay(1000) to (2) - Eungyu */
 	$(window).on('load', function() {
 		$(".status").fadeOut(1800);
-		$(".preloader").delay(0.3).fadeOut("slow");
+		$(".preloader").delay(0.1).fadeOut("slow");
 	});
 		
 }(jQuery));	
