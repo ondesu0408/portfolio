@@ -675,7 +675,7 @@ Assigned to: ThemeForest
 	
 	
 	
-	/* change delay(1000) to (50) - Eungyu */
+	/* change delay(1000) to (5) - Eungyu */
 	$(window).on('load', function() {
 		$(".status").fadeOut(1800);
 		$(".preloader").delay(5).fadeOut("slow");
