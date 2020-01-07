@@ -148,8 +148,8 @@ Assigned to: ThemeForest
 					delayScale: 2.5,
 					delay: 50,
 					*/
-					delayScale: 1.0,
-					delay: 15,
+					delayScale: 2.0,
+					delay: 35,
 					sync: false,
 					shuffle: false,
 					reverse: false
@@ -162,7 +162,7 @@ Assigned to: ThemeForest
 					delayScale: 2.5,
 					delay: 0,
 					*/
-					delayScale: 1.0,
+					delayScale: 2.0,
 					delay: 0,
 					sync: false,
 					shuffle: false,
