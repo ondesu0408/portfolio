@@ -129,11 +129,15 @@ Assigned to: ThemeForest
 	/*------------------------------------------------------------------*/ 
 	
 	// animated banner text
-	banner_typingtext: function() {
+	ç: function() {
 		if($('.icon').length > 0){
 			$('.banner_typingtext').textillate({
 				loop: true,
+				/*
+				Original - Eungyu
 				minDisplayTime: 2e3,
+				*/
+				minDisplayTime: 1e3,
 				initialDelay: 0,
 				autoStart: true,
 				"in": {
@@ -144,8 +148,8 @@ Assigned to: ThemeForest
 					delayScale: 2.5,
 					delay: 50,
 					*/
-					delayScale: 0.1,
-					delay: 1,
+					delayScale: 1.0,
+					delay: 15,
 					sync: false,
 					shuffle: false,
 					reverse: false
@@ -158,7 +162,7 @@ Assigned to: ThemeForest
 					delayScale: 2.5,
 					delay: 0,
 					*/
-					delayScale: 0.1,
+					delayScale: 1.0,
 					delay: 0,
 					sync: false,
 					shuffle: false,
@@ -678,7 +682,7 @@ Assigned to: ThemeForest
 	/* change delay(1000) to (2) - Eungyu */
 	$(window).on('load', function() {
 		$(".status").fadeOut(1800);
-		$(".preloader").delay(2).fadeOut("slow");
+		$(".preloader").delay(0.2).fadeOut("slow");
 	});
 		
 }(jQuery));	
