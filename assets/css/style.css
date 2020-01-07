@@ -1076,11 +1076,11 @@ p.banner_pera:after {
 }
 /* End bg mover */
 
-/* start right svg  move */
+/* start right svg  move - Commented Out Eungyu
 .vert-move {
     -webkit-animation: mover 2s infinite  alternate;
     animation: mover 2s infinite  alternate;
-}
+}*/ 
 
 @-webkit-keyframes mover {
     0% { transform: translateY(0); }
