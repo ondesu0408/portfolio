@@ -682,7 +682,7 @@ Assigned to: ThemeForest
 	/* change delay(1000) to (2) - Eungyu */
 	$(window).on('load', function() {
 		$(".status").fadeOut(1800);
-		$(".preloader").delay(0.2).fadeOut("slow");
+		$(".preloader").delay(0.8).fadeOut("slow");
 	});
 		
 }(jQuery));	
