@@ -786,6 +786,7 @@ transform: translate(-50%,-50%);
     z-index: 1;
     position: relative;
 }
+/*commented out text animation - Eungyu
 .port_banner_wrapper .bannner_leftpart {
 	-webkit-transition: all 1s;
     -moz-transition: all 1s;
@@ -810,7 +811,7 @@ transform: translate(-50%,-50%);
     -o-transform: scale(1) ;
     transform: translate(0px,0px); 
 }
-
+*/
 .bannner_leftpart h2.stranger {
     font-size: 32px;
     color: #fffffe;
