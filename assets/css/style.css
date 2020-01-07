@@ -919,6 +919,7 @@ p.banner_pera:after {
     top: 0;
     right: 34px;
 }
+/*commented out - Animation - Eungyu
 .banner_svg_box{
 	-webkit-transition: all 1s;
     -moz-transition: all 1s;
@@ -938,6 +939,8 @@ p.banner_pera:after {
     -o-transform: scale(1); 
     transform: scale(1) ;
 }
+*/ 
+/* commented out - animation - Eungyu
 .banner_rcontent svg.move_bg {
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -945,7 +948,7 @@ p.banner_pera:after {
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
-
+/*
 .brc_hirebtn .portfolio_btn.btn_orange {
     background-color: rgb(255, 117, 74);
     -webkit-box-shadow: 0px 8px 20px 0px rgba(255, 117, 74, 0.3);
