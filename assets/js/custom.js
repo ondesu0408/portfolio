@@ -145,7 +145,7 @@ Assigned to: ThemeForest
 					delay: 50,
 					*/
 					delayScale: 0.1,
-					delay: 5,
+					delay: 1,
 					sync: false,
 					shuffle: false,
 					reverse: false
