@@ -129,13 +129,13 @@ Assigned to: ThemeForest
 	/*------------------------------------------------------------------*/ 
 	
 	// animated banner text
-	ç: function() {
+	banner_typingtext: function() {
 		if($('.icon').length > 0){
 			$('.banner_typingtext').textillate({
 				loop: true,
 				/*
 				Original - Eungyu
-				minDisplayTime: 2e3,
+					minDisplayTime: 2e3,
 				*/
 				minDisplayTime: 1e3,
 				initialDelay: 0,
