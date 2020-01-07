@@ -679,10 +679,10 @@ Assigned to: ThemeForest
 	
 	
 	
-	/* change delay(1000) to (2) - Eungyu */
+	/* change delay(1000) to (0.1) - Eungyu */
 	$(window).on('load', function() {
 		$(".status").fadeOut(1800);
-		$(".preloader").delay(0.05).fadeOut("slow");
+		$(".preloader").delay(0.1).fadeOut("slow");
 	});
 		
 }(jQuery));	
