@@ -139,8 +139,13 @@ Assigned to: ThemeForest
 				"in": {
 					effect: "bounceIn",
 					// effect: "bounceInDown",
+					/*
+					Original - Eungyu
 					delayScale: 2.5,
 					delay: 50,
+					*/
+					delayScale: 0.1,
+					delay: 5,
 					sync: false,
 					shuffle: false,
 					reverse: false
@@ -148,7 +153,12 @@ Assigned to: ThemeForest
 				out: {
 					effect: "bounceOut",
 					// effect: "bounceOut",
+					/*
+					Original - Eungyu
 					delayScale: 2.5,
+					delay: 0,
+					*/
+					delayScale: 0.1,
 					delay: 0,
 					sync: false,
 					shuffle: false,
@@ -665,10 +675,10 @@ Assigned to: ThemeForest
 	
 	
 	
-	/* change delay(1000) to (10) - Eungyu */
+	/* change delay(1000) to (5) - Eungyu */
 	$(window).on('load', function() {
 		$(".status").fadeOut(1800);
-		$(".preloader").delay(10).fadeOut("slow");
+		$(".preloader").delay(5).fadeOut("slow");
 	});
 		
 }(jQuery));	
