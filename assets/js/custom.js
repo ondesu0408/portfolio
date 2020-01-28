@@ -676,15 +676,13 @@ Assigned to: ThemeForest
 	};
 	portfolio.init();
 	
-	
-	
-	
 	/* change 
 	fadeOut(1800) to (2)
-	delay(1000) to (0.001) - Eungyu */
+	delay(1000) to (0.001) - Eungyu 
 	$(window).on('load', function() {
 		$(".status").fadeOut(2);
 		$(".preloader").delay(0.001).fadeOut("slow");
 	});
+	*/
 		
 }(jQuery));	
